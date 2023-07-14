@@ -1,0 +1,88 @@
+
+
+.main-container
+{
+    background-color: lightgreen;
+    border: 5px solid green;
+    height: 800px;
+    padding: 10px;
+}
+
+.container
+{
+    background-color: lightblue;
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.container > div:nth-child(1)
+{
+    background-color: gray;
+    border: 2px solid peachpuff;
+    height: 48px;
+    flex: 1;
+}
+
+.container > nav:nth-child(2)
+{
+    background-color: gray;
+    border: 2px solid peachpuff;
+    flex: 1;
+}
+
+.container > div:nth-child(3)
+{
+    background-color: gray;
+    border: 2px solid peachpuff;
+    height: 48px;
+    flex: 1;
+}
+
+.inside-container
+{
+    padding: 5px;
+    height: 38px;
+    gap: 5px;
+    display: flex;
+}
+
+.inside-link
+{
+    background-color: pink;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.body-container
+{
+    height: 400px;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.body-container > :nth-child(1)
+{
+    background-color: #1D5B79;
+    border: 5px solid #EF6262;
+    flex: 1;
+}
+
+.body-container > :nth-child(2)
+{
+    background-color: #1D5B79;
+    border: 5px solid #EF6262;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.body-container > :nth-child(3)
+{
+    background-color: #1D5B79;
+    border: 5px solid #EF6262;
+    flex: 1;
